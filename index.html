@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+    body{
+      background-color: hsl(219, 44%, 69%);
+    }
+    .container{
+      display: grid;
+      place-items: center;
+      min-height: 90vh;
+    }
+    .childContainer{
+      background-color: white;
+      font-family: 'Outfit', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 10px;
+      max-width: min-content;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    }
+    .childContainer img{
+      width: 45vh;
+      margin: 15px 15px 0 15px;
+    }
+  .headerText{
+    font-weight: 700;
+    font-size: 25px;
+    padding: 0 20px;
+  }
+  .child{
+    font-weight: 400;
+    color: hsl(211, 14%, 38%);
+    text-align: center;
+    padding: 0 20px;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="childContainer">
+      <img src="./images/image-qr-code.png" alt="">
+      <div class="containerKid" style="text-align: center;">
+        <p class="headerText">Improve your front-end skills by building projects </p>
+        <p class="child">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+      </div>
+  </div>
+</body>
+</html>
